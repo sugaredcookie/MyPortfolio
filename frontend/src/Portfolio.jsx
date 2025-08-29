@@ -164,7 +164,7 @@ const Portfolio = () => {
 
     try {
       // Replace with your actual API endpoint
-      const response = await fetch('http://localhost:3000/api/contact', {
+      const response = await fetch('https://myportfolio-l9bp.onrender.com/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -395,7 +395,7 @@ const Portfolio = () => {
             <div className="photo-container">
               <div className="profile-photo">
                 <img 
-                  src="/src/assets/portfolioPhoto.jpeg" 
+                  src="./public/portfolioPhoto.jpeg" 
                   alt="Sanidhya Verma" 
                   style={{
                     width: '100%',
