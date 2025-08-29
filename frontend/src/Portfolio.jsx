@@ -395,7 +395,7 @@ const Portfolio = () => {
             <div className="photo-container">
               <div className="profile-photo">
                 <img 
-                  src="./public/portfolioPhoto.jpeg" 
+                  src="/portfolioPhoto.jpeg" 
                   alt="Sanidhya Verma" 
                   style={{
                     width: '100%',
